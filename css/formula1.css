@@ -3,14 +3,28 @@ body{
     scrollbar-width: none;
 }
 
-body::-webkit-scrollbar {display: none;  }
-
-header{
-    background: #313a7a;
-    background: linear-gradient(180deg,rgb(35, 40, 82) 20%, rgba(29, 29, 43, 1) 100%);
+header {
+    position: relative;
     display: flex;
-    align-items: center;
+    justify-content: space-between; 
+    align-items: center;           
     padding: 25px;
+    background: #313a7a;
+    background: linear-gradient(180deg, rgb(35,40,82) 20%, rgba(29,29,43,1) 100%);
+}
+
+
+header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 6px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #ff4b4b, #ffbf2b);
+  pointer-events: none;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.35);
 }
 
 main{margin-top: 50px;}
@@ -67,12 +81,11 @@ header button{
 }
 
 .card-inner {
-    transform: scale(1); /* trava o tamanho interno */
+    transform: scale(1);
 }
 
-/* quando passa o mouse */
 .card-outer:hover {
-    transform: scale(1.06); /* aumenta só o card externo */
+    transform: scale(1.06); 
 }
 
 .equipes {
@@ -96,6 +109,30 @@ header button{
     object-fit: cover;
     object-position: 50% 0; /* 50% horizontal, 0 topo */
     display: block;
+}
+
+.card-cima{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 90%;
+    object-fit: cover;
+
+}
+
+.card-cima img{
+    height: 70px;
+    width: 70px;
+}
+
+[class^="card-equipe"] {
+  width: 300px;           
+  min-height: 585px;      
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  overflow: hidden;      
 }
 
 .card-equipe-Mclaren{
@@ -137,6 +174,7 @@ header button{
     justify-content:center;
     align-items: center;
     width: 90%;
+    object-fit: cover;
 
 }
 
@@ -181,7 +219,7 @@ header button{
 
 
 .card-equipe-Williams{
-    background-color: #00a3e0; 
+    background-color: #026f97; 
     color: white;
       text-shadow:
     -0.5px 0px 0 black,

@@ -37,6 +37,23 @@ button:active{
     transform: scale(0.98);
 }
 
+.team-logo{
+    display: block;
+    margin: 0 auto 10px; 
+    width: 120px;       
+    height: auto;
+    object-fit: contain;
+}
+
+
+.card-cima{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
 .equipes{
     padding: 40px;
     text-align: center;
