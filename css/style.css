@@ -76,11 +76,11 @@ img{
     margin: 20px 15px auto;
     padding: 50px;
     vertical-align: top;
+    transition: 0.2s ease-in-out;
 }
 
 .card:hover{
     transform: scale(1.05);
-    transition: 0.2s ease-in-out;
 }
 
 .cards{

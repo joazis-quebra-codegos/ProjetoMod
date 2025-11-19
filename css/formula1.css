@@ -26,6 +26,8 @@ main{margin-top: 50px;}
     margin: 20px auto;
     justify-content: center;
     font-size: 250%;
+    color: firebrick;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #bg-video {
