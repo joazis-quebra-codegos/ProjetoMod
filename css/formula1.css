@@ -60,6 +60,19 @@ header button{
     
 }
 
+.card-outer {
+    transition: transform 0.25s ease;
+}
+
+.card-inner {
+    transform: scale(1); /* trava o tamanho interno */
+}
+
+/* quando passa o mouse */
+.card-outer:hover {
+    transform: scale(1.06); /* aumenta só o card externo */
+}
+
 .equipes {
     display: flex;
     flex-wrap: wrap;
@@ -67,6 +80,7 @@ header button{
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    transition: 0.2s ease-in-out;
 }
 
 .equipes p{

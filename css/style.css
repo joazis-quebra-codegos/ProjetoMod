@@ -24,6 +24,7 @@ button{
     padding: 10px 15px;
     cursor: pointer;
     margin: 20px 20px;
+    transition: 0.2s ease-in-out;
 }
 
 button:hover{
@@ -79,6 +80,7 @@ img{
 
 .card:hover{
     transform: scale(1.05);
+    transition: 0.2s ease-in-out;
 }
 
 .cards{

@@ -1,3 +1,4 @@
+<!-- Estrutura HTML ajustada: todos os 10 cards (F1) presentes com wrappers externo/ interno para permitir scale sem escalar conteúdo -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,166 +13,185 @@
     </video>
 
     <header>
-        </center><h1 id="site">Hydra</h1> 
-        </center><h1 id="titulo">Formula 1</h1> 
+        <h1 id="site">Hydra</h1>
+        <h1 id="titulo">Formula 1</h1>
         <button id="botao-voltar" type="button" onclick="window.location.href='index.html'">Voltar</button>
     </header>
+
     <main>
         <section class="equipes">
 
-            <section class="card-equipe-Mclaren">
-                <div class="card-cima">
-                    <p>McLaren</p>
-                    <img class="logo" src="logos/mclarenLogo.png" alt="">
-                </div>
-                <div class="Oscar-Piastri">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/mclaren/oscpia01/2025mclarenoscpia01right.webp" alt=""></div>
-                    <h3>Oscar Piastri 81</h3>
-                </div>  
-                <div class="Lando-Norris">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/mclaren/lannor01/2025mclarenlannor01right.webp" alt=""></div>
-                    <h3>Lando Norris 4</h3>
-                </div>  
-            </section>
-
-            <section class="card-equipe-Ferrari">
-                <div class="card-cima">
-                    <p>Scuderia Ferrari</p>
-                    <img class="logo" src="logos/ferrariLogo.png" alt="">
-                </div>
-                <div class="Lewis-Hamilton">
-                    <div ><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/ferrari/lewham01/2025ferrarilewham01right.webp" alt=""></div>
-                    <h3>Lewis Hamilton 44</h3>
-                </div>
-                <div class="Charles-Leclerc">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/ferrari/chalec01/2025ferrarichalec01right.webp" alt=""></div>
-                    <h3>Charles Leclerc 16</h3>
+            <section class="card-equipe-Mclaren card-outer">
+                <div class="card-inner">
+                    <div class="card-cima">
+                        <p>McLaren</p>
+                        <img class="logo" src="logos/mclarenLogo.png" alt="McLaren Logo">
+                    </div>
+                    <div class="Oscar-Piastri">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/mclaren/oscpia01/2025mclarenoscpia01right.webp" alt="Oscar Piastri"></div>
+                        <h3>Oscar Piastri 81</h3>
+                    </div>
+                    <div class="Lando-Norris">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/mclaren/lannor01/2025mclarenlannor01right.webp" alt="Lando Norris"></div>
+                        <h3>Lando Norris 4</h3>
+                    </div>
                 </div>
             </section>
 
-            <section class="card-equipe-Mercedes">
-                <div class="card-cima">
-                    <p>Scuderia Ferrari</p>
-                    <img class="logo" src="logos/Mercedes.png" alt="">
-                </div>
-                <div class="George-Russell">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/mercedes/georus01/2025mercedesgeorus01right.webp" alt=""></div>
-                    <h3>George Russell 63</h3>
-                </div>
-                <div class="Kimi-Antonelli">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/mercedes/andant01/2025mercedesandant01right.webp" alt=""></div>
-                    <h3>Kimi Antonelli</h3>
-                </div>
-            </section>
-
-            <section class="card-equipe-RedBull">
-                <div class="card-cima">
-                    <p>Scuderia Ferrari</p>
-                    <img class="logo" src="logos/Redbull.png" alt="">
-                </div>
-                <div class="Max-Verstappen">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/redbullracing/maxver01/2025redbullracingmaxver01right.webp" alt=""></div>
-                    <h3>Max Verstappen 1</h3>
-                </div>
-                <div class="Yuki Tsunoda">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/redbullracing/yuktsu01/2025redbullracingyuktsu01right.webp" alt=""></div>
-                    <h3>Yuki Tsunoda 22</h3>
+            <section class="card-equipe-Ferrari card-outer">
+                <div class="card-inner">
+                    <div class="card-cima">
+                        <p>Scuderia Ferrari</p>
+                        <img class="logo" src="logos/ferrariLogo.png" alt="Ferrari Logo">
+                    </div>
+                    <div class="Lewis-Hamilton">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/ferrari/lewham01/2025ferrarilewham01right.webp" alt="Lewis Hamilton"></div>
+                        <h3>Lewis Hamilton 44</h3>
+                    </div>
+                    <div class="Charles-Leclerc">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/ferrari/chalec01/2025ferrarichalec01right.webp" alt="Charles Leclerc"></div>
+                        <h3>Charles Leclerc 16</h3>
+                    </div>
                 </div>
             </section>
 
-            <section class="card-equipe-Williams">
-                <div class="card-cima">
-                    <p>Scuderia Ferrari</p>
-                    <img class="logo" src="logos/ferrariLogo.png" alt="">
-                </div>
-                <div class="Alexandre-Albon">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/williams/alealb01/2025williamsalealb01right.webp" alt=""></div>
-                    <h3>Alexandre Albon 23</h3>
-                </div>
-                <div class="Carlos Sainz">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/williams/carsai01/2025williamscarsai01right.webp" alt=""></div>
-                    <h3>Lance Stroll 18</h3>
-                </div>
-            </section>
-
-            <section class="card-equipe-RacingBulls">
-                <div class="card-cima">
-                    <p>Scuderia Ferrari</p>
-                    <img class="logo" src="logos/ferrariLogo.png" alt="">
-                </div>
-                <div class="Liam-Lawson">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/racingbulls/lialaw01/2025racingbullslialaw01right.webp" alt=""></div>
-                    <h3>Liam Lawson 30</h3>
-                </div>
-                <div class="Isaque Hadjar">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/racingbulls/isahad01/2025racingbullsisahad01right.webp" alt=""></div>
-                    <h3>Isaque Hadjar 6</h3>
+            <section class="card-equipe-Mercedes card-outer">
+                <div class="card-inner">
+                    <div class="card-cima">
+                        <p>Mercedes</p>
+                        <img class="logo" src="logos/Mercedes.png" alt="Mercedes Logo">
+                    </div>
+                    <div class="George-Russell">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/mercedes/georus01/2025mercedesgeorus01right.webp" alt="George Russell"></div>
+                        <h3>George Russell 63</h3>
+                    </div>
+                    <div class="Kimi-Antonelli">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/mercedes/andant01/2025mercedesandant01right.webp" alt="Kimi Antonelli"></div>
+                        <h3>Kimi Antonelli</h3>
+                    </div>
                 </div>
             </section>
 
-            <section class="card-equipe-AstonMartin">
-                <div class="card-cima">
-                    <p>Scuderia Ferrari</p>
-                    <img class="logo" src="logos/ferrariLogo.png" alt="">
-                </div>
-                <div class="Lance-Stroll">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/astonmartin/lanstr01/2025astonmartinlanstr01right.webp" alt=""></div>
-                    <h3>Lance Stroll 18</h3>
-                </div>
-                <div class="Fernando-Alonso">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/astonmartin/feralo01/2025astonmartinferalo01right.webp" alt=""></div>
-                    <h3>Fernando Alonso</h3>
-                </div>
-            </section>
-
-            <section class="card-equipe-Haas">
-                <div class="card-cima">
-                    <p>Scuderia Ferrari</p>
-                    <img class="logo" src="logos/ferrariLogo.png" alt="">
-                </div>
-                <div class="Esteban-Ocon">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/haas/estoco01/2025haasestoco01right.webp" alt=""></div>
-                    <h3>Esteban Ocon 31</h3>
-                </div>
-                <div class="Oliver-Bearman">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/haas/olibea01/2025haasolibea01right.webp" alt=""></div>
-                    <h3>Oliver Bearman 87</h3>
+            <section class="card-equipe-RedBull card-outer">
+                <div class="card-inner">
+                    <div class="card-cima">
+                        <p>Red Bull Racing</p>
+                        <img class="logo" src="logos/Redbull.png" alt="Red Bull Logo">
+                    </div>
+                    <div class="Max-Verstappen">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/redbullracing/maxver01/2025redbullracingmaxver01right.webp" alt="Max Verstappen"></div>
+                        <h3>Max Verstappen 1</h3>
+                    </div>
+                    <div class="Yuki-Tsunoda">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/redbullracing/yuktsu01/2025redbullracingyuktsu01right.webp" alt="Yuki Tsunoda"></div>
+                        <h3>Yuki Tsunoda 22</h3>
+                    </div>
                 </div>
             </section>
 
-            <section class="card-equipe-Sauber">
-                <div class="card-cima">
-                    <p>Scuderia Ferrari</p>
-                    <img class="logo" src="logos/ferrariLogo.png" alt="">
-                </div>
-                <div class="Gabriel-Bortoleto">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/kicksauber/gabbor01/2025kicksaubergabbor01right.webp" alt=""></div>
-                    <h3>Gabriel Bortoleto 5</h3>
-                </div>
-                <div class="Nico Hulkenberg">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/kicksauber/nichul01/2025kicksaubernichul01right.webp" alt=""></div>
-                    <h3>Nico Hulkenberg 27</h3>
+            <section class="card-equipe-Williams card-outer">
+                <div class="card-inner">
+                    <div class="card-cima">
+                        <p>Williams</p>
+                        <img class="logo" src="logos/williamsLogo.png" alt="Williams Logo">
+                    </div>
+                    <div class="Alexandre-Albon">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/williams/alealb01/2025williamsalealb01right.webp" alt="Alexandre Albon"></div>
+                        <h3>Alexandre Albon 23</h3>
+                    </div>
+                    <div class="Lance-Stroll">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/williams/carsai01/2025williamscarsai01right.webp" alt="Lance Stroll"></div>
+                        <h3>Lance Stroll 18</h3>
+                    </div>
                 </div>
             </section>
 
-            <section class="card-equipe-Alpine">
-                <div class="card-cima">
-                    <p>Scuderia Ferrari</p>
-                    <img class="logo" src="logos/ferrariLogo.png" alt="">
+            <section class="card-equipe-RacingBulls card-outer">
+                <div class="card-inner">
+                    <div class="card-cima">
+                        <p>Racing Bulls</p>
+                        <img class="logo" src="logos/racingBulls.png" alt="Racing Bulls Logo">
+                    </div>
+                    <div class="Liam-Lawson">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/racingbulls/lialaw01/2025racingbullslialaw01right.webp" alt="Liam Lawson"></div>
+                        <h3>Liam Lawson 30</h3>
+                    </div>
+                    <div class="Isaque-Hadjar">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/racingbulls/isahad01/2025racingbullsisahad01right.webp" alt="Isaque Hadjar"></div>
+                        <h3>Isaque Hadjar 6</h3>
+                    </div>
                 </div>
-                <div class="Pierre-Gasly">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/alpine/piegas01/2025alpinepiegas01right.webp" alt=""></div>
-                    <h3>Pierre Gasly 10</h3>
+            </section>
+
+            <section class="card-equipe-AstonMartin card-outer">
+                <div class="card-inner">
+                    <div class="card-cima">
+                        <p>Aston Martin</p>
+                        <img class="logo" src="logos/astonmartinLogo.png" alt="Aston Martin Logo">
+                    </div>
+                    <div class="Lance-Stroll-2">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/astonmartin/lanstr01/2025astonmartinlanstr01right.webp" alt="Lance Stroll"></div>
+                        <h3>Lance Stroll 18</h3>
+                    </div>
+                    <div class="Fernando-Alonso">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/astonmartin/feralo01/2025astonmartinferalo01right.webp" alt="Fernando Alonso"></div>
+                        <h3>Fernando Alonso</h3>
+                    </div>
                 </div>
-                <div class="Colapinto">
-                    <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/alpine/fracol01/2025alpinefracol01right.webp" alt=""></div>
-                    <h3>Franco Colapinto 43</h3>
+            </section>
+
+            <section class="card-equipe-Haas card-outer">
+                <div class="card-inner">
+                    <div class="card-cima">
+                        <p>Haas</p>
+                        <img class="logo" src="logos/haasLogo.png" alt="Haas Logo">
+                    </div>
+                    <div class="Esteban-Ocon">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/haas/estoco01/2025haasestoco01right.webp" alt="Esteban Ocon"></div>
+                        <h3>Esteban Ocon 31</h3>
+                    </div>
+                    <div class="Oliver-Bearman">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/haas/olibea01/2025haasolibea01right.webp" alt="Oliver Bearman"></div>
+                        <h3>Oliver Bearman 87</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card-equipe-Sauber card-outer">
+                <div class="card-inner">
+                    <div class="card-cima">
+                        <p>Sauber</p>
+                        <img class="logo" src="logos/sauberLogo.png" alt="Sauber Logo">
+                    </div>
+                    <div class="Gabriel-Bortoleto">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/kicksauber/gabbor01/2025kicksaubergabbor01right.webp" alt="Gabriel Bortoleto"></div>
+                        <h3>Gabriel Bortoleto 5</h3>
+                    </div>
+                    <div class="Nico-Hulkenberg">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/kicksauber/nichul01/2025kicksaubernichul01right.webp" alt="Nico Hulkenberg"></div>
+                        <h3>Nico Hulkenberg 27</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card-equipe-Alpine card-outer">
+                <div class="card-inner">
+                    <div class="card-cima">
+                        <p>Alpine</p>
+                        <img class="logo" src="logos/alpineLogo.png" alt="Alpine Logo">
+                    </div>
+                    <div class="Pierre-Gasly">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/alpine/piegas01/2025alpinepiegas01right.webp" alt="Pierre Gasly"></div>
+                        <h3>Pierre Gasly 10</h3>
+                    </div>
+                    <div class="Colapinto">
+                        <div><img src="https://media.formula1.com/image/upload/c_lfill,w_440/q_auto/v1740000000/common/f1/2025/alpine/fracol01/2025alpinefracol01right.webp" alt="Franco Colapinto"></div>
+                        <h3>Franco Colapinto 43</h3>
+                    </div>
                 </div>
             </section>
 
         </section>
-
     </main>
-    
 </body>
 </html>
