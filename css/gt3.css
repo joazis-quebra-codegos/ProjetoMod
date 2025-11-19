@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-color: rgb(15, 18, 22); /* Tema mais escuro e moderno, estilo GT3 */
+    color: #e0e0e0;
+    font-size: medium;
+    overflow: hidden; 
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+header{
+    background-color: #13171c; /* Cabeçalho estilo "carbon race" */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 3px solid #ff2a2a; /* Vermelho GT3 */
+}
+
+button{
+    background-color: #ff2a2a; /* Vermelho GT3 */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 20px 20px;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: #cc2020;
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+.equipes{
+    padding: 40px;
+    text-align: center;
+}
+
+.card-equipe{
+    background-color: #1c222b;
+    border-radius: 12px;
+    width: 330px;
+    display: inline-block;
+    margin: 20px;
+    padding: 40px 20px;
+    vertical-align: top;
+    border: 2px solid #ff2a2a22; /* borda leve vermelha */
+    transition: 0.25s ease-in-out;
+}
+
+.card-equipe:hover{
+    transform: scale(1.05);
+    border-color: #ff2a2a;
+    box-shadow: 0 0 15px #ff2a2a55;
+}
+
+.card-cima p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ff2a2a;
+}
+
+#site{
+    color: #ff2a2a;
+    font-size: 2rem;
+}
+
+#titulo{
+    color: #e0e0e0;
+    font-size: 2rem;
+}
+
+footer{
+    text-align: center;
+    padding: 15px 15px;
+    background-color: #13171c;
+    border-top: 3px solid #ff2a2a;
+}
