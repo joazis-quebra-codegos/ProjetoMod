@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: rgb(21, 39, 37);
+    color: #dbe3eb;
+    font-size: medium;
+    overflow: hidden; 
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+header{
+    background-color: rgb(68, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+button{
+    background-color: rgb(154, 148, 216);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 20px 20px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(0.99);
+}
+
+nav li{
+    
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a{
+    align-items: left;
+    color: white;
+    gap: 30px;
+}
+
+nav a:hover{
+    color: rgb(145, 139, 212);
+}
+
+img{
+    size-adjust: 30px;
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}  
+ 
+
+.banner{
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(180deg,rgb(68, 36, 36), #4e3030);
+    padding: 30px 30px;
+    border: 10px solid #4e3030;
+}
+
+.card{
+    background-color: #222934;
+    border-radius: 10px;
+    width: 300px;
+    display: inline-block;
+    margin: 20px 15px auto;
+    padding: 50px;
+    vertical-align: top;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.cards{
+    padding: 40px 40px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 15px 15px;
+}

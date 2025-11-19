@@ -1,0 +1,273 @@
+body{
+    background-color: rgba(29, 29, 43, 1);
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {display: none;  }
+
+header{
+    background: #313a7a;
+    background: linear-gradient(180deg,rgb(35, 40, 82) 20%, rgba(29, 29, 43, 1) 100%);
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+main{margin-top: 50px;}
+
+#site{
+    font-size: 50px;
+    vertical-align: top;
+    color: green;
+}
+
+#titulo{
+    text-align: center;
+    margin: 20px auto;
+    justify-content: center;
+    font-size: 250%;
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1;
+}
+
+
+header button{
+    justify-content: right;
+}
+
+#botao-voltar{
+    background-color: rgb(154, 148, 216);
+    border: none;
+    border-radius: 10px;
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    padding: 10px 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 90px;
+    
+}
+
+.equipes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.equipes p{
+    font-size: 21px;
+}
+
+
+.equipes img {
+    height: 170px;
+    width: 140px;
+    object-fit: cover;
+    object-position: 50% 0; /* 50% horizontal, 0 topo */
+    display: block;
+}
+
+.card-equipe-Mclaren{
+    background-color: orange;
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-equipe-Ferrari{
+    background-color: rgb(219, 4, 4);
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-cima{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 90%;
+
+}
+
+.card-cima img{
+    height: 70px;
+    width: 70px;
+}
+
+.card-equipe-Mercedes{
+    background-color: rgb(146, 146, 146);
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-equipe-RedBull{
+    background-color: #0a3f6b; 
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card-equipe-Williams{
+    background-color: #00a3e0; 
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card-equipe-RacingBulls{
+    background-color: #222; 
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.card-equipe-AstonMartin{
+    background-color: #0f5b3a;
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card-equipe-Haas{
+    background-color: #bfbfbf;
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card-equipe-Sauber{
+    background-color: #20ce29; 
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card-equipe-Alpine{
+    background-color: #0033a0; 
+    color: white;
+      text-shadow:
+    -0.5px 0px 0 black,
+    1px -0.5px 0 black,  
+    0px 1px 0 black,  
+    0px 0px 0 black;   
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
